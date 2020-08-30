@@ -5,3 +5,71 @@ h1 {
 h2 {
     text-align: center;
 }
+
+.button {
+    border: solid 1px #27d0e3;
+    color: #27d0e3;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #27d0e3;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot {
+    border-radius: 125px;
+    object-fit: cover;
+}
+
+p {
+    font-family: 'Roboto Mono'
+}
+
+h1 {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Roboto Mono';
+}
+
+h3 {
+    font-family: 'Roboto Mono';
+}
+
+.project {
+    margin-bottom: 50px;
+    max-width: 70%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    margin: 50px;
+    max-width: 70%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}

@@ -4,11 +4,13 @@ h1 {
 
 h2 {
     text-align: center;
+    font-weight: 400px;
+    font-family: 'Rubik'
 }
 
 .button {
-    border: solid 1px #27d0e3;
-    color: #27d0e3;
+    border: solid 1px #c9722a;
+    color: #c9722a;
     text-decoration: none;
     padding: 5px;
     border-radius: 3px;
@@ -16,7 +18,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: #27d0e3;
+    background-color: #c9722a;
     color: white;
 }
 
@@ -28,25 +30,29 @@ body {
 }
 
 .headshot {
-    border-radius: 125px;
+    border-radius: 175px;
     object-fit: cover;
+    margin-right: 10%;
+    width: 350px;
+    height: 350px;
 }
 
 p {
-    font-family: 'Roboto Mono'
+    font-family: 'Rubik';
+    font-size: 18px;
 }
 
 h1 {
-    font-family: 'Roboto Mono';
+    font-family: 'Rubik';
     font-weight: bold;
 }
 
 h2 {
-    font-family: 'Roboto Mono';
+    font-family: 'Rubik';
 }
 
 h3 {
-    font-family: 'Roboto Mono';
+    font-family: 'Rubik';
 }
 
 .project {
@@ -60,16 +66,88 @@ h3 {
 }
 
 .intro {
-    margin: 50px;
-    max-width: 70%;
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
+}
+
+.topButtons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.topButton {
+    border: solid 1px #c9722a;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: #faaa69;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Rubik";
+    font-weight: 300;
+}
+
+.topButton:hover {
+    background-color: #c9722a;
+    color: white;
+    border: solid white 1px;
+}
+
+.mainHeader {
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-weight: 300;
+}
+
+.email {
+    font-family: "Rubik";
+    text-decoration: none;
+    color: black;
+}
+
+.email:hover {
+    color: #c9722a;
+}
+
+.top {
+    background-color: #c9722a;
+    color: white;
+    margin: 50px;
+    max-width: 70%;
+    text-align: left;
+}
+
+.backgroundColor {
+   background-color: #c9722a;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 5px;
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.toph2 {
+    text-align: left;
+    font-family: 'Rubik';
+    font-weight: 300;
 }

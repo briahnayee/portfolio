@@ -9,12 +9,20 @@ h2 {
 }
 
 .button {
-    border: solid 1px #c9722a;
-    color: #c9722a;
+    color: white;
     text-decoration: none;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 8px;
     margin: 5px;
+    background-color: #faaa69;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Rubik";
+    font-weight: 300;
 }
 
 .button:hover {
@@ -140,7 +148,8 @@ h3 {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   border-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
    width: 100%;
    padding-top: 50px;
    padding-bottom: 50px;
@@ -150,4 +159,146 @@ h3 {
     text-align: left;
     font-family: 'Rubik';
     font-weight: 300;
+}
+
+.about {
+    display: flex;
+    color: #616161;
+}
+
+.aboutp {
+    font-family: 'Rubik';
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+    margin-top: 40px;
+    flex-basis: 60%;
+}
+
+.technologies {
+    margin: 20px;
+    text-align: center;
+    flex-basis: 40%;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 120px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.logoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar {
+    background-color: #c9722a;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Rubik';
+    font-weight: 300; 
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: solid white 1px;
+}
+
+.navEl {
+    font-family: 'Rubik';
+    font-weight: 300; 
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.navEl:hover {
+    color: #ffe8d5;
+    font-size: 25px;
+    padding-bottom: 9px;
+}
+
+@media (max-width: 982px) {
+    .backgroundColor {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .mainHeader, .toph2, .topButtons {
+        display: flex;
+        justify-content: center;
+    }
+    .headshot {
+        margin-right: 0px;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .logos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 635px) {
+    .logos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .logo {
+        height: 75px;
+    }
+    .headshot {
+        margin-right: 0px;
+        height: 200px;
+        width: 200px;
+    }
+    .technologies {
+        max-width: 80%;
+    }
+    .aboutp {
+        max-width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+    .toph2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .intro {
+        max-width: 100%;
+    }
+    .mainHeader {
+        font-size: 40px;
+    }
+    .topButton {
+        width: 100px;
+        height: 25px;
+        font-size: 18px;
+    }
+    .top {
+        margin: 20px;
+    }
+    .about {
+        justify-content: center;
+        align-items: center;
+    }
+    .navBar {
+        border-bottom: solid white 1px;
+        justify-content: center;
+    }
+    .navEl {
+        padding-right: 10px !important;
+        font-size: 18px;
+    }
 }
